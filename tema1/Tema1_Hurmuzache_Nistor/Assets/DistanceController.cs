@@ -12,8 +12,6 @@ public class StateChanging : MonoBehaviour
     public Animator anim2;
     public float attackDistance = 0.25f;
 
-    private bool hasAttacked = false;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -32,12 +30,11 @@ public class StateChanging : MonoBehaviour
         {
             anim1.SetTrigger("isAttacking");
             anim2.SetTrigger("isAttacking");
-            hasAttacked = true;
         }
         else if (!isClose)
         {
-            // Reset attack state if they move apart
-            hasAttacked = false;
+            anim1.ResetTrigger("isAttacking");
+            anim2.ResetTrigger("isAttacking");
         }
     }
 }

@@ -1,0 +1,3 @@
+- Proiect nou 3D
+- Am urmat tutorialul: https://www.youtube.com/watch?v=pm9W7r9BGiA&list=PLpEoiloH-4eM-fykn_3_QcJ-A_MIJF5B9&index=2 pana la minutul 7.55
+- Apoi m-am intors la tutorialul: https://www.youtube.com/watch?v=UlqdHrfXppo care m-a ajutat sa adaug partea de script si partea de xr simulator (pana la  12.46)

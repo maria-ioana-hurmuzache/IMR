@@ -44,7 +44,7 @@ public class TargetScore : MonoBehaviour
 
             float distance = Vector3.Distance(releasePos, contactPoint);
 
-            float rawScore = maxScore - distance * distanceMultiplier;
+            float rawScore = minScore + distance * distanceMultiplier;
             float finalScore = Mathf.Clamp(rawScore, minScore, maxScore);
 
             if (scoreText != null)

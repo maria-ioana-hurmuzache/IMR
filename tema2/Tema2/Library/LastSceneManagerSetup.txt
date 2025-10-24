@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Tema3.unity
+- path: Assets/Scenes/Tema3.0.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
